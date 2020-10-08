@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "flights-ec5e4"
+  },
+  "targets": {
+    "flights-ec5e4": {
+      "hosting": {
+        "scheduleangular": [
+          "flights-ec5e4"
+        ]
+      }
+    }
+  }
+}

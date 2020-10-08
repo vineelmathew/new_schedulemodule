@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table class="table table-bordered table-striped table-dark">
+        <thead>
+          <tr>
+            <th>scheduleId</th>
+            <th>Airport Code</th>
+            <th>Arrival Time</th>
+            <th>Departure Time</th>
+            <th>From</th>
+            <th>To</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let schedule of schedules">
+            <td>{{schedule.scheduleId}}</td>
+            <td>{{schedule.airportCode}}</td>
+            <td>{{schedule.arrivalTime|date:'short'}}</td>
+            <td>{{schedule.departureTime|date:'short'}}</td>
+            <td>{{schedule.sourceAirport}}</td>
+            <td>{{schedule.destinationAirport}}</td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>

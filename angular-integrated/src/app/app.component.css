@@ -1,0 +1,22 @@
+
+.dropdown{
+    margin-right: 30px;
+}
+.dropdown a{
+    color:black;
+}
+.dropdown2
+{
+    margin-left:40px;
+}
+.dropdown2 a{
+    text-align: center;
+    text-decoration:none;
+}
+.dropdown-item
+{
+align-self:end;
+}
+.dropdown2 button{
+    background-color: black;
+}
